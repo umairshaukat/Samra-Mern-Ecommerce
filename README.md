@@ -29,3 +29,7 @@ Builds the app for production to the `build` folder.
 
 ### `npm run eject`
 One-way operation to expose build tooling config.
+## Repository Migration
+
+Need to move this project to a separate GitHub organization? Follow `ORG_PUSH_GUIDE.md`.
+
