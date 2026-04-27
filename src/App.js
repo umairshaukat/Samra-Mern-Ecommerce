@@ -9,6 +9,7 @@ import Product from './pages/Product'
 import Login from './pages/Login'
 import PlaceOrder from './pages/PlaceOrder'
 import Orders from './pages/Orders'
+import SaasStudio from './pages/SaasStudio'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 import SearchBar from './components/SearchBar'
@@ -31,6 +32,7 @@ const App = () => {
       <Route path='/login' element={<Login/>}/>
       <Route path='/place-order' element={<PlaceOrder/>}/>
       <Route path='/Orders' element={<Orders/>}/>
+      <Route path='/saas-studio' element={<SaasStudio/>}/>
     </Routes>
     <Footer/>
     </div>
